@@ -34,6 +34,30 @@ I used separate preprocessing pipelines for the two models:
 
 Both models use the same train-test split. The preprocessing is part of each scikit-learn pipeline, so it is fitted on the training data and then applied to the test data.
 
+## Exploratory Data Analysis
+
+### Subscription Rate by Age Group
+
+![Subscription Rate by Age Group](images/age_subscription.png)
+
+### Subscription Rate by Previous Campaign Outcome
+
+![Subscription Rate by Previous Campaign Outcome](images/previous_campaign_outcome.png)
+
+## Model Evaluation
+
+### Random Forest Confusion Matrix
+
+![Random Forest Confusion Matrix](images/random_forest_confusion_matrix.png)
+
+### ROC Curve Comparison
+
+![ROC Curve Comparison](images/roc_curve_comparison.png)
+
+## Feature Importance
+
+![Top 15 Feature Importance](images/feature_importance.png)
+
 ## Results
 
 These are the results recorded in the notebook's model comparison table for the held-out test set:
