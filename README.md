@@ -7,7 +7,7 @@ I used Python to explore the dataset, preprocess the data, train classification 
 ## 1. Dataset
 
 - **Dataset:** Bank Marketing (`bank.csv`)
-- **Source:** Kaggle (add the dataset URL before submission)
+- **Source:** Kaggle (https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)
 - **Records:** 11,162
 - **Features:** 16 input features and 1 target column
 - **Target:** `deposit` (`yes` or `no`)
